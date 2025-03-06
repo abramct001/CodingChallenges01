@@ -8,8 +8,8 @@
 
 print("Student Grading System")
 
-# Prompt user for input and convert to an integer
-score = int(input("Enter your score: "))
+# Prompt user for input and convert to a float
+score = float(input("Enter your score: "))
 
 # Check the score range and assign a grade
 if 100 >= score >= 90:  # A grade for scores between and including 90 and 100
